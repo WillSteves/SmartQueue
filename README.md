@@ -7,9 +7,10 @@ track your own progress.
 > **Not affiliated with or endorsed by Hypixel.** Use at your own risk.
 
 ## Download
-Get the latest version from the [Releases](../../releases) page:
-- **SmartQueue-Setup-&lt;version&gt;.exe**: installer (no admin rights needed)
-- **SmartQueue-&lt;version&gt;-portable.zip**: unzip and run `SmartQueue.exe`
+Get the current build, a pre-release, from the
+[v1.5.0 review build](../../releases/tag/v1.5.0-review) page:
+- **SmartQueue-Setup-1.5.0.exe**: installer (no admin rights needed)
+- **SmartQueue-1.5.0-portable.zip**: unzip and run `SmartQueue.exe`
 
 Windows may say "Windows protected your PC" because the app isn't code-signed
 yet: click **More info -> Run anyway**.
@@ -17,9 +18,7 @@ yet: click **More info -> Run anyway**.
 ## What it does
 - **Lobby**: detects the players in your game and shows their Bedwars stats
   (stars, FKDR, WLR, finals, wins) with a threat level, most dangerous first.
-  Flags likely smurfs and nicked players. *(Player stat lookups are switched
-  off in this version while SmartQueue's Hypixel API application is reviewed;
-  they show "no API key" until then.)*
+  Flags likely smurfs and nicked players.
 - **Teammates**: for Bedwars Lobby 1. Set the stats you want in a teammate;
   anyone who mentions your name, messages you or invites you to a party is
   checked and marked Yes / Close / No. One click copies their name.
@@ -31,9 +30,6 @@ yet: click **More info -> Run anyway**.
   Minecraft logs, including games played while SmartQueue was closed.
 - **Radar**: the sweatiest and least sweaty maps of the last 7 days, based on
   how many strong players SmartQueue users met per game on each map.
-- **Community cheater list**: players flagged by 5 different SmartQueue users
-  are marked. Each account can flag 3 players a day; please flag only obvious
-  cheating.
 
 ## How it works (and what it doesn't do)
 - SmartQueue is a **separate program, not a Minecraft mod**. It reads the chat
