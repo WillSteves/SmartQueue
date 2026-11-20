@@ -4,7 +4,7 @@ A stats overlay for **Hypixel Bedwars** on Windows. SmartQueue shows who is in
 your lobby, how strong each player is, and helps you find good teammates and
 track your own progress.
 
-> **Not affiliated with or endorsed by Hypixel.** Use at your own risk.
+> **Not affiliated with or endorsed by Hypixel.**
 
 ## Download
 Get the current build, a pre-release, from the
