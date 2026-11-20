@@ -19,6 +19,9 @@ yet: click **More info -> Run anyway**.
 - **Lobby**: detects the players in your game and shows their Bedwars stats
   (stars, FKDR, WLR, finals, wins) with a threat level, most dangerous first.
   Flags likely smurfs and nicked players.
+- **Compact mode**: for one monitor. After you type `/who` in a game, a slim
+  bar along the top of your screen shows the top 5 threats in your lobby.
+  Mouse clicks pass through it to the game. Off by default.
 - **Teammates**: for Bedwars Lobby 1. Set the stats you want in a teammate;
   anyone who mentions your name, messages you or invites you to a party is
   checked and marked Yes / Close / No. One click copies their name.
@@ -30,6 +33,48 @@ yet: click **More info -> Run anyway**.
   Minecraft logs, including games played while SmartQueue was closed.
 - **Radar**: the sweatiest and least sweaty maps of the last 7 days, based on
   how many strong players SmartQueue users met per game on each map.
+
+## Free and Premium
+SmartQueue will always have a free tier. Lobby stats stay free for everyone.
+
+| Free | Premium (planned) |
+|---|---|
+| Lobby stats and threat levels | Teammates finder |
+| Compact mode | Radar |
+| Player lookup | Goals |
+| Player tags and notes | |
+| My Stats | |
+
+Premium features add SmartQueue's own analysis (teammate matching, map
+rankings from SmartQueue users' games, goal tracking). Raw Hypixel stats are
+never behind a paywall.
+
+## Screenshots
+*Screenshots use made-up sample data.*
+
+**Lobby**: everyone in your game, most dangerous first.
+
+![Lobby tab](docs/screenshots/lobby.png)
+
+**Compact mode**: the top 5 threats along the top of your screen while you play.
+
+![Compact bar](docs/screenshots/compact_bar.png)
+
+**Teammates** (Premium): players who contact you, checked against your criteria.
+
+![Teammates tab](docs/screenshots/teammates.png)
+
+**My Stats**: your progress, counted from your own Minecraft logs.
+
+![My Stats tab](docs/screenshots/my_stats.png)
+
+**Goals** (Premium): daily, weekly, monthly and lifetime goals.
+
+![Goals tab](docs/screenshots/goals.png)
+
+**Radar** (Premium): map difficulty from anonymous counts, never player names.
+
+![Radar tab](docs/screenshots/radar.png)
 
 ## How it works (and what it doesn't do)
 - SmartQueue is a **separate program, not a Minecraft mod**. It reads the chat
